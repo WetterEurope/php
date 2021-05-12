@@ -27,7 +27,7 @@ body {
 <?php
     $date = $_POST[date];
     if ($date == null) $date = date("Y-m-d H:i:s");
-    print ("<span style=\"color:#ffff00\">Du hast den ".date("j. F, \J\a\h\\r Y", strtotime($date))." ausgewählt.</span>");
+    print ("<span style=\"color:#ffff00\">Du hast den ".date("j. F, \J\a\h\\r Y", strtotime($date))." ausgewählt</span>");
     return;
 ?>
 
